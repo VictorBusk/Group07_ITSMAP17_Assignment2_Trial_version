@@ -47,7 +47,8 @@
         android:layout_marginEnd="50dp"
         android:text="@string/tv_temp"
         app:layout_constraintBottom_toBottomOf="@+id/tvHumidity"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="50dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -58,7 +59,8 @@
         android:text="@string/tv_description"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvHumidity" />
+        app:layout_constraintTop_toBottomOf="@+id/tvHumidity"
+        android:layout_marginRight="60dp" />
 
     <TextView
         android:id="@+id/tvDescription"
@@ -79,7 +81,8 @@
         android:text="@string/btn_remove"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button2" />
+        app:layout_constraintTop_toTopOf="@+id/button2"
+        android:layout_marginLeft="50dp" />
 
     <Button
         android:id="@+id/btnOk"
@@ -89,6 +92,7 @@
         android:layout_marginEnd="50dp"
         android:text="@string/btn_ok"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="50dp" />
 
 </android.support.constraint.ConstraintLayout>

@@ -6,10 +6,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-/**
- * Created by victo on 29-10-2017.
- */
-
 public class CityDetailsActivity extends AppCompatActivity {
 
     private Button btnRemove, btnOk;
